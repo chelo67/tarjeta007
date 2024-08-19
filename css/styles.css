@@ -34,7 +34,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    
 }
 /* encabezado */
 .encabezado {
@@ -47,7 +47,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+  
 }
 .encabezado .foto {
     width: 50px;
@@ -58,7 +58,7 @@ body {
 .encabezado .foto img {
     width: 140px;
     border-radius: 100%;
-    position: absolute;
+  
     bottom:10px;
     border: 8px solid white;
 }
@@ -78,7 +78,51 @@ body {
     color: var(--color-principal);
     margin-top: -28px;
 }
-
+/* contacto */
+.contacto {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    align-items: center;
+    height: 50px;
+}
+.contacto .iconos {
+    background-color: var(--color-principal);
+    width: 60px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+/* Redes SOciales */
+.redes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    align-items: center;
+}
+.redes h1 {
+    font-family: var(--texto-secundario);
+    font-size: 2.5rem;
+    color: var(--color-principal);
+}
+.redes .icon-redes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: #ec552b;
+}
 /* botones --------*/
 .botones {
     position: fixed;
