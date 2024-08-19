@@ -1,8 +1,8 @@
 {
-"name": "Tarjeta 001",
-"short_name": "Tarjeta 001",
-"start_url": "/Tarjeta-001/",
-"scope": "/Tarjeta-001/",
+"name": "Tarjeta 007",
+"short_name": "Tarjeta 007",
+"start_url": "/Tarjeta-007/",
+"scope": "/Tarjeta-00/",
 "display": "standalone",
 "description": "A description for your application",
 "lang": " The default language of your application",
@@ -63,7 +63,7 @@
 "related_applications": [
     {
         "platform":"windows",
-        "url": "https://chelo67.github.io/Tarjeta-001/"
+        "url": "https://chelo67.github.io/Tarjeta-007/"
     }
 ],
 "prefer_related_applications": false,

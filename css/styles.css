@@ -16,6 +16,9 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 body {
     height: 100vh;
     display: flex;
@@ -99,6 +102,10 @@ body {
     align-items: center;
     border-radius: 100%;
 }
+.iconos i {
+    font-size: 30px;
+    color: var(--color-terciario);
+}
 /* Redes SOciales */
 .redes {
     width: 100%;
@@ -122,6 +129,10 @@ body {
     align-items: center;
     font-size: 30px;
     color: #ec552b;
+}
+.redes .icon-redes i {
+    font-size: 50px;
+    color: var(--color-principal);
 }
 /* botones --------*/
 .botones {
