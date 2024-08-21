@@ -1,8 +1,8 @@
 {
 "name": "Tarjeta 007",
 "short_name": "Tarjeta 007",
-"start_url": "/Tarjeta-007/",
-"scope": "/Tarjeta-00/",
+"start_url": "/tarjeta-007/",
+"scope": "/tarjeta-00/",
 "display": "standalone",
 "description": "A description for your application",
 "lang": " The default language of your application",
